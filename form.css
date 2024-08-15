@@ -1,0 +1,189 @@
+label{
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(61, 60, 60);
+    font-weight: 600;
+}
+
+
+
+
+.uploadsection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+
+}
+
+
+#submit{
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.418);
+    border-radius: 10px;
+}
+#submit:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in;
+}
+
+
+
+.navbar {
+    padding: 1rem;
+    background-color: #333;
+    border-bottom: 1px solid #444;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navbar-nav {
+    margin-left: 20px;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    transition: color 0.2s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .navbar-toggler-icon {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .collapse {
+    justify-content: space-between;
+  }
+  
+  .ml-auto {
+    margin-left: auto;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-danger:hover {
+    background-color: #bd2130;
+    border-color: #bd2130;
+  }
+  
+  /* Add styles for Home and My Profile buttons */
+  .nav-link.home, .nav-link.profile {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    transition: box-shadow 0.2s ease, background-color 0.2s ease;
+  }
+  
+  .nav-link.home {
+    border: 1px solid rgba(114, 114, 114, 0.651);
+  }
+  
+  .nav-link.profile {
+     border: 1px solid rgba(128, 128, 128, 0.699);
+
+  }
+  
+  .nav-link.home:hover, .nav-link.profile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #bd2130;
+    color: white;
+    
+    
+  }
+
+
+
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
+.sectiondiv{
+    width: 75%;
+}
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+  }
+  
+  .form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+  }
+  
+  .uploadsection {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .uploadfile {
+    z-index: 10;
+    border: 2px dashed rgba(44, 43, 43, 0.315);
+    max-width: 14rem;
+
+  }
+  #uploadimg{
+    height: inherit;
+    width: 5rem;
+    width: 13.5rem;
+  }
+  
+  .instruct {
+    
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .instruct ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .instruct li {
+    margin-bottom: 10px;
+  }
+  

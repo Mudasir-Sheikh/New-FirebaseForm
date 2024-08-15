@@ -1,0 +1,47 @@
+.left-container {
+
+    font-size: 1.2rem;
+    border-right: 2px solid rgba(58, 56, 56, 0.404);
+    height: 65vh;
+    /* border: 2px solid red; */
+
+
+}
+
+.prof-img {
+    width: 280px;
+    max-width: 350px;
+
+}
+
+.rightcontainer {
+    /* border: 1px solid black; */
+}
+
+input , select{
+    background: #fff;
+    color: black;
+    font: inherit;
+    border: 0;
+    outline: 0;
+    padding: 8px;
+    height: inherit;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3);
+    width: 270px !important;
+
+
+}
+
+.form {
+    background: #fff;
+    color: black;
+    font: inherit;
+    height: 3rem;
+
+}
+
+.buttons{
+    margin: 2rem;
+    width: 100%;
+    text-align: center;
+}
